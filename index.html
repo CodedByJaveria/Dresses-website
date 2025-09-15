@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Dressify</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Collections</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for dresses...">
+      <i class="fas fa-search"></i>
+    </div>
+    <div class="header-cart">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+  </div>
+    </header>
+   <section class="banner">
+  <div class="banner-content">
+    <h1>Find Your Perfect Dresses</h1>
+    <p>"Explore the latest trends and styles for every occasion.
+      Our collection is designed to match your mood, season, and every moment.
+      Trendy, classy, and made just for you to shine at every event."
+    </p>
+    <a href="#" class="shop-btn">Shop Now</a>
+  </div>
+
+  <div class="banner-img">
+    <img src="images/home-img1.png" alt="Banner 1" class="active">
+     <img src="images/home-img2.png" alt="Banner 2">
+    <img src="images/home-img3.png" alt="Banner 3">
+    <img src="images/home-img4.png" alt="Banner 4">
+  </div>
+</section>
+<section class="featured">
+  <h2 class="section-title"> Featured Categories </h2>
+  <div class="featured-container">
+    <div class="category-card">
+      <img src="images/party dress.jpg" alt="Party Wear">
+      <div class="overlay">
+        <h3>Party Wear</h3>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="category-card">
+      <img src="images/casual-dress.jpg" alt="Casual Dresses">
+      <div class="overlay">
+        <h3>Casual</h3>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="category-card">
+      <img src="images/bridal.jpg" alt="Wedding Collection">
+      <div class="overlay">
+        <h3>Wedding Collection</h3>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="category-card">
+      <img src="images/office..jpg" alt="Office Wear">
+      <div class="overlay">
+        <h3>Office Wear</h3>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- New Arrivals Section -->
+<section class="new-arrivals">
+  <h2> New Arrivals </h2>
+  <p class="subtitle">Our latest collection, just arrived for you!</p>
+
+  <div class="arrival-container">
+    <div class="arrival-card">
+      <div class="badge">NEW</div>
+      <img src="images/dress1.jpg" alt="Elegant Dress">
+      <h3>Elegant Party Dress</h3>
+      <p class="price">$59.99</p>
+      <button>Shop Now</button>
+    </div>
+
+    <div class="arrival-card">
+      <div class="badge">TRENDING</div>
+      <img src="images/dress2.jpg" alt="Casual Summer Wear">
+      <h3>Casual Summer Wear</h3>
+      <p class="price">$39.99</p>
+      <button>Shop Now</button>
+    </div>
+
+    <div class="arrival-card">
+      <div class="badge">HOT</div>
+      <img src="images/dress 3.webp" alt="Bridal Gown">
+      <h3>Bridal Collection</h3>
+      <p class="price">$149.99</p>
+      <button>Shop Now</button>
+    </div>
+
+    <div class="arrival-card">
+      <div class="badge">NEW</div>
+      <img src="images/dress4.jpg" alt="Office Kurti">
+      <h3>Office Outfit</h3>
+      <p class="price">$29.99</p>
+      <button>Shop Now</button>
+    </div>
+  </div>
+</section>
+<section class="products">
+  <h2>Trending Collection</h2>
+  <div class="product-container">
+    
+    <div class="product-card">
+      <img src="https://i.pinimg.com/1200x/9e/37/59/9e375996ccbe3b441e1bc9a2ccb55891.jpg" alt="Summer Dress">
+      <h3>Summer Dress</h3>
+      <p class="price">Rs. 3,899</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/white top.jpg" alt="White Top">
+      <h3>White Top</h3>
+      <p class="price">Rs. 3,299</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/bb/13/43/bb13434400d17a4c37c156ea43168a7d.jpg" alt="Printed Kurti">
+      <h3>Printed Kurti</h3>
+      <p class="price">Rs. 5,199</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/88/c0/ea/88c0ea46321bfbf49f139dddc50466e5.jpg" alt="Black Maxi">
+      <h3>Black Maxi </h3>
+      <p class="price">Rs.  11,499</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/e0/77/2e/e0772e1805988c8a99ded5111c659b58.jpg" alt="Velvet Dress">
+      <h3>Velvet Dress</h3>
+      <p class="price">Rs. 8,999</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+<div class="product-card">
+      <img src="https://i.pinimg.com/736x/a3/cf/f9/a3cff9262d3136ec9918de60645cd730.jpg" alt="Velvet Dress">
+      <h3>  Chicken kari Dress</h3>
+      <p class="price">Rs. 8,999</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+     <div class="product-card">
+      <img src="images/festival.jpg" alt="Festival">
+      <h3>Festival Collection</h3>
+      <p class="price">Rs. 7,999</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/41/00/60/410060365021ad5fa98414e76cbacb66.jpg" alt="Office">
+      <h3>Office Collection</h3>
+      <p class="price">Rs. 4,999</p>
+      <button class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+  </div>
+</section>
+<section class="special-offer">
+  <div class="offer-content">
+    <img src="images/hania.jpg" alt="Offer Left" class="side-img">
+    <div class="offer-text">
+      <span class="discount-badge">🎉 Special Offer 🎉</span>
+      <h2>Flat <span>25% OFF</span> on Summer Collection</h2>
+      <p class="small">Limited time only – Don’t miss out!</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+    <img src="images/sajal.jpg" alt="Offer Right" class="side-img">
+  </div>
+</section>
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-container">
+    
+    <div class="testimonial-card">
+      <span class="badge">Verified Buyer</span>
+      <p>"The dress I bought was even better than the pictures! Perfect fitting and amazing fabric."</p>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <h3>- Ayesha Khan</h3>
+      <span class="location">Karachi, PK</span>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="badge">Verified Buyer</span>
+      <p>"Super fast delivery and the packaging was premium. I wore it at my sister's wedding and got so many compliments."</p>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <h3>- Hina Malik</h3>
+      <span class="location">Lahore, PK</span>
+    </div>
+
+    <div class="testimonial-card">
+      <span class="badge">Verified Buyer</span>
+      <p>"Finally found trendy designs in my size. The quality is way better than other online stores I’ve tried."</p>
+      <div class="stars">⭐⭐⭐⭐</div>
+      <h3>- Sara Ahmed</h3>
+      <span class="location">Islamabad, PK</span>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>Dressify</h2>
+      <p>Your go-to store for trendy, classy, and affordable fashion.  
+      Dress to impress with every occasion!</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Dressify. All Rights Reserved.| <strong> Javeria Tariq</strong></p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
